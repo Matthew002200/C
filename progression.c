@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     while (x<stop)
     {
         printf("x=%d\n", x);
-        x += step;
+        x *= step; //x=x*step
     }
 
     printf("After: x=%d\n", x);

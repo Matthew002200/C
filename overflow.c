@@ -5,7 +5,9 @@ int main(int argc, char* argv[])
 {
     int64_t x=127;
     printf("x=%d\n", x);
-    x=x+1;
+    x+=1;
+    printf("x=%d\n", x);
+    x-=1;
     printf("x=%d\n", x);
 
     return 0;

@@ -3,11 +3,11 @@
 
 int main(int argc, char* argv[])
 {
-    int64_t x=127;
+    int8_t x=127;
     printf("x=%d\n", x);
     x+=1;
     printf("x=%d\n", x);
-    x-=1;
+    x*=2; //x=x*2
     printf("x=%d\n", x);
 
     return 0;

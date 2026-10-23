@@ -8,10 +8,10 @@ int main(int argc, char* argv[])
     scanf("%d%d%d", &start, &stop, &step);
 
     int x=start;
-    while (x<stop)
+    while (x>stop)
     {
         printf("x=%d\n", x);
-        x *= step; //x=x*step
+        x += step; 
     }
 
     printf("After: x=%d\n", x);

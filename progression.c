@@ -6,9 +6,10 @@ int main(int argc, char* argv[])
     printf("Generator of progression.\n"
     "Enter start, stop, step:");
     scanf("%d%d%d", &start, &stop, &step);
-
+    
+    int sign = (step>0)? +1: -1;
     int x=start;
-    while (x>stop)
+    while (sign*x<sign*stop)
     {
         printf("x=%d\n", x);
         x += step; 

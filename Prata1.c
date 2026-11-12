@@ -3,11 +3,11 @@
 int main ()
 
 {
-    int d;
+    int dm;
     printf("Введите число в дюймах \n");
-    scanf("%d", &d);
-    int cm = d * 2;
-    printf("%d", cm);
+    scanf("%d", &dm);
+    float cm = dm * 2.54;
+    printf("%f", cm);
 
     return 0;
 }

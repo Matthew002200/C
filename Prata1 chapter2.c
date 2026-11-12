@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define name "Matthew"
-#define surname "Zaitsev"
 int main(void)
 {
+    char name[] = "Matthew";
+    char surname[] = "Zaitsev";
     printf ("%s %s \n", name, surname);
     printf ("%s\n%s \n", name, surname);
     printf ("%s ", name);
